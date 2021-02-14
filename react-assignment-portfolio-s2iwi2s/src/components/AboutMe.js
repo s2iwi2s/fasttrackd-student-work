@@ -40,15 +40,17 @@ const AboutMe = () => {
   <Template title="about me">
    <Content>
     <TextContent>
-     <p><span className={"hightlight"}>Winston Pidor</span> is a highly skilled java developer with more than 10 years of professional work experience. He is independent, resourceful(capable of devising ways and means) and has strong analytical and troubleshooting skills. He is able to work on a fast paced, team-oriented environment.</p>
-     <p>He Specialized in developing software using Java, Struts 1 and 2, Spring / SpringBoot, JDBC/SQL, Oracle Stored procedure, Hibernate, Html, CSS and Javascript.</p>
+     <p><span className={"hightlight"}>Winston Pidor</span> is a skilled fullstack java developer whose strong work ethic, attention to detail and adaptability makes him a valuable addition to any project. He is a graduate of the FastTrack’D Java and JavaScript Developer program with a bachelor’s degree in Computer Engineering. Winston has displayed skills in developing, deploying, troubleshooting, and maintaining Java applications. He has achieved a productive level of knowledge and skill in numerous Java frameworks such as Struts I &amp; II, Spring Framework and Spring MVC(Springboot), Hibernate, JDBC, HTML, CSS, Javascript, React and Angular. Winston brings a positive outlook and many years of development experience to any team of which he is a member.
+</p>
+     {/* <p><span className={"hightlight"}>Winston Pidor</span> is a highly skilled java developer with more than 10 years of professional work experience. He is independent, resourceful(capable of devising ways and means) and has strong analytical and troubleshooting skills. He is able to work on a fast paced, team-oriented environment.</p>
+     <p>He Specialized in developing software using Java, Struts 1 and 2, Spring / SpringBoot / Spring WS / Spring Rest, JDBC/SQL, Oracle, MongoDb, PostgreSql, MySql, Hibernate, Html, CSS and Javascript.</p>
      <p>He Has Exposure to Angular, React, Docker, and AWS.</p>
-     <p>And, has experience with tools like Eclipse, GIT, SVN, CVS, ANT and Maven. </p>
+     <p>And, has experience with tools like Eclipse, GIT, SVN, CVS, ANT and Maven. </p> */}
     </TextContent>
     <Avatar src="img/me.jpg" alt="Avatar" />
    </Content>
-   <FbLink><BiLike /> Like</FbLink>
-   <TwLink><FiTwitter /> Follow @s2i77</TwLink>
+   {/* <FbLink><BiLike /> Like</FbLink>
+   <TwLink><FiTwitter /> Follow @s2i77</TwLink> */}
   </Template>
  )
 }
